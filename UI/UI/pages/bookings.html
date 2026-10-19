@@ -60,7 +60,7 @@
                             </div>
                             <div style="text-align:right;">
                                 <div style="font-size:1.3rem; font-weight:700; color:${b.status === 'CANCELLED' ? 'var(--accent)' : 'var(--success)'};">
-                                    ₹${b.totalPrice || 0}
+                                    ${formatCurrency(b.totalPrice) || 0}
                                 </div>
                                 <span class="badge" style="background:${b.status === 'CANCELLED' ? 'rgba(233,69,96,0.2);color:var(--accent)' : 'rgba(46,204,113,0.2);color:var(--success)'};">
                                     ${b.status}

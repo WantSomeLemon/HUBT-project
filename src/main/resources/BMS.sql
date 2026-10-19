@@ -50,7 +50,7 @@ VALUES
     131,
     7.2,
     '2024-02-10',
-    NULL
+    'https://vi.wikipedia.org/wiki/Mai_(phim)#/media/T%E1%BA%ADp_tin:Mai_2024_poster.jpg'
 ),
 (
     'Nhà Bà Nữ',
@@ -60,7 +60,7 @@ VALUES
     102,
     6.8,
     '2023-01-22',
-    NULL
+    'https://vi.wikipedia.org/wiki/Nh%C3%A0_b%C3%A0_N%E1%BB%AF#/media/T%E1%BA%ADp_tin:%C3%81p_ph%C3%ADch_phim_Nh%C3%A0_b%C3%A0_N%E1%BB%AF.jpg'
 ),
 (
     'Lật Mặt 7: Một Điều Ước',
@@ -70,7 +70,7 @@ VALUES
     138,
     7.0,
     '2024-04-26',
-    NULL
+    'https://vi.wikipedia.org/wiki/L%E1%BA%ADt_m%E1%BA%B7t_7:_M%E1%BB%99t_%C4%91i%E1%BB%81u_%C6%B0%E1%BB%9Bc#/media/T%E1%BA%ADp_tin:%C3%81p_ph%C3%ADch_ch%C3%ADnh_th%E1%BB%A9c_L%E1%BA%ADt_m%E1%BA%B7t_7.jpg'
 ),
 (
     'Jawan',
@@ -90,7 +90,7 @@ VALUES
     181,
     8.4,
     '2019-04-26',
-    NULL
+    'https://en.wikipedia.org/wiki/Avengers:_Endgame#/media/File:Avengers_Endgame_poster.jpg'
 );
 
 -- =============================================

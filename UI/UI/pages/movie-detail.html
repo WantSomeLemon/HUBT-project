@@ -104,7 +104,7 @@
                             <p style="font-size:0.8rem; color:var(--text-muted);">${s.screen?.theater?.city?.name || ''}</p>
                         </div>
                         <div class="show-meta">
-                            <div class="price">₹${s.ticketPrice || 0}</div>
+                            <div class="price">${formatCurrency(s.ticketPrice) || 0 }</div>
                             <button class="btn btn-sm btn-primary" style="margin-top:0.5rem;" onclick='selectShow(${JSON.stringify(s)})'>Select Seats</button>
                         </div>
                     </div>
@@ -208,8 +208,8 @@
             const total = selectedSeatIds.length * price;
             contentDiv.innerHTML = `
                 <div class="summary-row"><span>Seats</span><span>${selectedSeatIds.length} selected</span></div>
-                <div class="summary-row"><span>Price per ticket</span><span>₹${price}</span></div>
-                <div class="summary-row"><span>Total Amount</span><span>₹${total}</span></div>
+                <div class="summary-row"><span>Price per ticket</span><span>${formatCurrency(price)}</span></div>
+                <div class="summary-row"><span>Total Amount</span><span>${formatCurrency(total)}</span></div>
             `;
         }
 
