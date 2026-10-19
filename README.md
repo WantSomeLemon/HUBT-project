@@ -107,7 +107,7 @@ It also includes a frontend UI built with HTML, CSS, and JavaScript that interac
 ## 📂 Project Structure
 
 ```text
-Movie-Booking-System
+Movie-Booking-System (the parent folder that you named in your PC)
 │
 ├── UI/
 │   ├── index.html
